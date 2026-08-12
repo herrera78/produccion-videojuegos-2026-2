@@ -1,0 +1,8 @@
+# Excluir la carpeta de caché y metadatos locales de Godot (se regenera automáticamente)
+.godot/
+
+# Excluir archivos binarios y traducciones generadas
+*.translation
+
+# Excluir presets de exportación locales (contienen rutas absolutas de su PC)
+export_presets.cfg
