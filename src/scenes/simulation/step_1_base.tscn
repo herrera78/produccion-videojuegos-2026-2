@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://brs4u1hmsodtx"]
+
+[ext_resource type="Script" uid="uid://2e7xigrdbchv" path="res://src/scenes/simulation/step_1_base.gd" id="1_vfrwq"]
+
+[node name="Step1Base" type="Control" unique_id=263285306]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vfrwq")
+
+[node name="BtnNext" type="Button" parent="." unique_id=360550631]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 31.0
+offset_right = 101.0
+offset_bottom = 62.0
+text = "Siguiente"
+
+[node name="Label" type="Label" parent="." unique_id=814210908]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Elige Hamburgues"

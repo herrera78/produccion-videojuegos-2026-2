@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://ci3uo6dhkh62y"]
+
+[ext_resource type="Script" uid="uid://c8wlt6q5wy01f" path="res://src/scenes/config/config_panel.gd" id="1_0mmty"]
+
+[node name="ConfigPanel" type="Control" unique_id=28238825]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0mmty")
+
+[node name="Config" type="Label" parent="." unique_id=653473038]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Panel de Configuración"
+
+[node name="BtnBack" type="Button" parent="." unique_id=262022461]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 32.0
+offset_right = 153.0
+offset_bottom = 63.0
+text = "Vovler al Menú"

@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://5w2aymj7t3bn"]
+
+[ext_resource type="Script" uid="uid://ye22kol78vft" path="res://src/scenes/simulation/step_2_ingredients.gd" id="1_021y6"]
+
+[node name="Step2Ingredients" type="Control" unique_id=2100690567]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 119.0
+offset_top = 119.0
+offset_right = 119.0
+offset_bottom = 119.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_021y6")
+
+[node name="BtnBack" type="Button" parent="." unique_id=983517831]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 35.0
+offset_right = 77.0
+offset_bottom = 66.0
+text = "Anterior"
+
+[node name="BtnNext" type="Button" parent="." unique_id=1566488036]
+layout_mode = 0
+offset_left = 84.0
+offset_top = 35.0
+offset_right = 164.0
+offset_bottom = 66.0
+text = "Siguiente"
+
+[node name="Label" type="Label" parent="." unique_id=1780460383]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Ingredientes"
