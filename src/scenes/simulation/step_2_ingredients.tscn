@@ -7,32 +7,61 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 119.0
-offset_top = 119.0
-offset_right = 119.0
-offset_bottom = 119.0
+offset_left = -1.0
+offset_top = 1.0
+offset_right = -1.0
+offset_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_021y6")
 
-[node name="BtnBack" type="Button" parent="." unique_id=983517831]
+[node name="LblTitle" type="Label" parent="." unique_id=1780460383]
 layout_mode = 0
-offset_left = 4.0
-offset_top = 35.0
-offset_right = 77.0
-offset_bottom = 66.0
+offset_left = 3.0
+offset_top = 1.0
+offset_right = 282.0
+offset_bottom = 24.0
+scale = Vector2(2.9170716, 3.4333699)
+text = "Paso 2: Personalice sus Ingredientes"
+
+[node name="LblStatus" type="Label" parent="." unique_id=833288845]
+layout_mode = 0
+offset_left = 5.0000005
+offset_top = 93.0
+offset_right = 262.0
+offset_bottom = 116.0
+scale = Vector2(1.5939096, 2.2500827)
+text = "Ingredientes agregados: Ninguno"
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=361164393]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 176.0
+offset_right = 423.0
+offset_bottom = 216.0
+scale = Vector2(1.2093077, 1.501943)
+columns = 2
+
+[node name="BtnCheese" type="Button" parent="GridContainer" unique_id=917844179]
+layout_mode = 2
+text = "+ Agregar Queso ($1500)"
+
+[node name="BtnTomato" type="Button" parent="GridContainer" unique_id=262741016]
+layout_mode = 2
+text = "+ Agregar Tomate ($1000)"
+
+[node name="HBoxNavigation" type="HBoxContainer" parent="." unique_id=649293978]
+layout_mode = 0
+offset_left = 316.0
+offset_top = 303.0
+offset_right = 504.0
+offset_bottom = 343.0
+
+[node name="BtnBack" type="Button" parent="HBoxNavigation" unique_id=1273175393]
+layout_mode = 2
 text = "Anterior"
 
-[node name="BtnNext" type="Button" parent="." unique_id=1566488036]
-layout_mode = 0
-offset_left = 84.0
-offset_top = 35.0
-offset_right = 164.0
-offset_bottom = 66.0
-text = "Siguiente"
-
-[node name="Label" type="Label" parent="." unique_id=1780460383]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "Ingredientes"
+[node name="BtnNext" type="Button" parent="HBoxNavigation" unique_id=1180220581]
+layout_mode = 2
+text = "Ver Resumen
+"

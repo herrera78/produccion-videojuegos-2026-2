@@ -15,16 +15,37 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_0avdk")
 
-[node name="BtnMenu" type="Button" parent="." unique_id=903703073]
+[node name="BtnFinalize" type="Button" parent="." unique_id=903703073]
 layout_mode = 0
-offset_left = 31.0
-offset_top = 27.0
-offset_right = 84.0
-offset_bottom = 58.0
-text = "Menu"
+offset_left = 134.0
+offset_top = 141.0
+offset_right = 340.0
+offset_bottom = 172.0
+text = "Finalizar y Volver al Menú"
 
-[node name="Label" type="Label" parent="." unique_id=2141878002]
+[node name="LblSummary" type="Label" parent="." unique_id=2141878002]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "Resumen del pedidio"
+offset_left = 7.0
+offset_top = -18.0
+offset_right = 241.0
+offset_bottom = 5.0
+scale = Vector2(1.1395246, 1.4021785)
+text = "Paso 3: Resumen de su Pedido"
+
+[node name="LblDetails" type="Label" parent="." unique_id=1146861398]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 19.0
+offset_right = 395.0
+offset_bottom = 42.0
+scale = Vector2(1.0569226, 1.467171)
+text = "Mostrará los nombres de los ingredientes elegidos"
+
+[node name="LblTotal" type="Label" parent="." unique_id=539769957]
+layout_mode = 0
+offset_left = 4.9999995
+offset_top = 101.0
+offset_right = 325.0
+offset_bottom = 124.0
+scale = Vector2(1.2979821, 1.4209688)
+text = " Mostrará el costo acumulado acumulado"
